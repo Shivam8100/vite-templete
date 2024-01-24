@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@atoms/*": ["components/atoms/*"],
+      "@modules/*": ["modules/*"],
+      "@molecules/*": ["components/molecules/*"],
+      "@redux/*": ["redux/*"],
+      "@utils/*": ["utils/*"],
+      "@constants/*": ["constants/*"],
+      "@services/*": ["services/*"],
+      "@assets/*": ["assets/*"],
+      "@organisms/*": ["organisms/*"]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+:root {
+  /* Colors */
+
+  --active-background: #ffebdc;
+  --active: #ff7613;
+  --green: #369a03;
+  --green-light: #cbf6e2;
+  --red: #e55934;
+  --red-light: #fae2db;
+  --accent: #0071bc;
+  --accent-shade: #0562a0;
+  --accent-light: #edf5fa;
+  --white: #fff;
+  --dark: #1e1e1e;
+  --dark-light: #82868b;
+  --gray: #b8c2cc;
+  --border-clr: #eceaf1;
+  --black: #333333;
+  --gray-primary: #9b9b9b;
+  --gray-secondary: #c3c3c3;
+  --primary-black: #333;
+  --sec-green: #22b554;
+  --sec-black: #242425;
+
+  /* Shadows */
+  /* --shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1); */
+  --shadow: 0px 8.6px 14.1px rgba(0, 0, 0, 0.025),
+    0px 69px 113px rgba(0, 0, 0, 0.05);
+  --border-radius: 0.5em;
+}
+.bbtn {
+  width: 100%;
+  height: auto;
+  padding: 0.75em 1em;
+  border-radius: 5px !important;
+  background-color: var(--accent);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+  align-items: center;
+  text-transform: capitalize;
+  gap: 0.5em;
+  border: 1px solid var(--accent);
+  transition: all 200ms ease-in-out;
+}
+
+.bbtn svg {
+  font-size: large;
+}
+
+.bbtn:hover,
+.bbtn:focus {
+  cursor: pointer;
+  background-color: #00568f;
+  color: white !important;
+}
+button.bbtn-sec:disabled,
+button.bbtn:disabled,
+button.bbtn-sm:disabled,
+button.bbtn-success:disabled,
+button.bbtn-plain:disabled,
+button.bbtn-themed:disabled {
+  cursor: not-allowed;
+  border: none;
+  background-color: #dddddd;
+  color: #74797d;
+}
+.h_100 {
+  height: 100% !important;
+}
+.pointer {
+  cursor: pointer;
+}
